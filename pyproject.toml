@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyailearn"
+dynamic = ["version"]
+authors = [
+  { name="Kerryghan", email="kerryghan.dev@proton.me" },
+]
+license = {file = "LICENSE.txt"}
+maintainers = [
+    {name = "Kerryghan", email="kerryghan.dev@proton.me"},
+]
+requires-python = ">=3.10"
+readme = "README.md"
+description = "A small example package"
+keywords=['python', 'learning', 'ai', 'machine learning', 'supervised', 'unsupervised']
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Education",
+    "Intended Audience :: Information Technology",
+    'Intended Audience :: Science/Research',
+    "Programming Language :: Python :: 3",
+    'Programming Language :: Python :: 3.10',
+    'Programming Language :: Python :: 3.11',
+    'Programming Language :: Python :: 3.12',
+    'Programming Language :: Python :: 3.13',
+    'Programming Language :: Python :: 3 :: Only',
+    "Operating System :: Unix",
+    "Operating System :: MacOS :: MacOS X",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Documentation",
+    "Topic :: Education",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://test.pypi.org/project/example-package-therryka/#description"
+Issues = "https://github.com/pypa/sampleproject/issues"
+Documentation = "https://github.com/kerryghan-relot/PyAILearn/wiki"
+Source = "https://github.com/kerryghan-relot/PyAILearn"
+Download = "https://test.pypi.org/project/example-package-therryka/#files"
+"Release notes" = "https://numpy.org/doc/stable/release"
+
+[tool.setuptools.dynamic]
+version = {attr = "example_package_therryka.__version__"}  # any module attribute compatible with ast.literal_eval

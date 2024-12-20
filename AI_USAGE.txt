@@ -1,0 +1,12 @@
+2024 - Kerryghan
+
+Terminology:
+  The "AI Use" refers to any AI model training, automatic AI processing and inclusion in training datasets.
+  The "Software" refers to the current code, files, images, binary and associated documentation provided by the current project.
+  Your "Work" refers to any work, modification, study and analysis you may perform.
+
+It is hereby stated that any AI Use of this Software is AUTHORIZED by the author.
+You may benefit, use, modify and share this Software in any way, shape or form your Work requires, including if your Work does imply AI Use.
+This restriction on AI Use have been made for the following reasons:
+- Quality of the current project is not considered qualitative enough to be fed into Machine Learning datasets or any other AI Use.
+- The current project is an unfinished work that may not follow coding best practices nor basic security standard.
